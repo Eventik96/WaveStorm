@@ -1,0 +1,727 @@
+input:focus {
+    outline:none !important;
+}
+
+#AccountButton
+{
+    opacity: 1;
+    text-decoration: none;
+    padding:8px;
+    background: transparent;
+    border: none;
+    color:#c0c0c0;
+    font-family: Arial;
+    float:right;
+    
+    padding: 0;
+    font-size: 16px;
+    margin-right:40px;
+    cursor: pointer;
+}
+
+#AccountButton:hover
+{
+    color:white;
+}
+
+
+
+
+#userImg
+{
+    float:right;
+    width:26px;
+    height:26px;
+    margin-top:12px;
+    margin-bottom: 12px;
+    position: relative;
+    margin-right: 10px;
+
+}
+
+ul
+{
+    list-style-type: none;
+    padding: 0;
+    margin:0;
+}
+li
+{
+    padding-left: 10px;
+    margin:0;
+    padding-top:10px;
+    padding-bottom: 10px;
+}
+
+li:hover
+{
+    background-color: #777777;
+}
+
+hr
+{
+    border: 0.3px solid #7777777c;
+    height: 0;
+    margin:0;
+    padding:0;
+}
+
+.lip
+{
+    cursor: pointer;
+    font-size: 15px;
+    margin:0;
+    padding:0;
+}
+
+
+#ProfileMenu
+{
+    float:right;
+    right:40px;
+    top:51px;
+    background-color: #111;
+    width:160px;
+    height:auto;
+    border: none;
+    position: absolute;
+    color:#c0c0c0;
+}
+
+
+#logout
+{
+    text-decoration: none;
+    color:#c0c0c0;
+}
+
+/*Profil szerkesztése DIV*/
+#MyProfile
+{
+    
+    color:wheat;
+    background-color: transparent;
+    position: absolute;
+    margin:auto;
+    left:250px;
+    right:0;
+    width: 500px;
+    bottom:70px;
+    top:101px;
+}
+
+.newClass
+{
+    width:300px;
+    height:50px;
+    font-size:20px;
+    margin-top:5px;
+    margin-bottom:15px;
+    border-radius:5px;
+    border-color: transparent;
+    padding-bottom:2px;
+    text-decoration: none;
+    font-weight: 80;
+    font-family: Arial;
+    color:#202020;
+}
+
+.newTitles
+{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    padding:0;
+    margin-bottom: 2px;
+}
+
+#save
+{
+    cursor: pointer;
+    width:300px;
+    height:55px;
+    font-size:20px;
+    margin-top:20px;
+    margin-bottom:10px;
+    border-radius:5px;
+    border-color: transparent;
+    padding-bottom:2px;
+    margin-left:2px;
+    font-family: Arial;
+    background-color: #1db954;
+    color:#fff;
+    text-transform: uppercase;
+    
+    border: 1px solid transparent;
+    border-radius: 5px;
+    vertical-align: middle;
+}
+
+#save:hover
+{
+    background: #1ecf5c;
+    transition: 0.3s;
+}
+
+#save:hover:after
+{
+    transition: 0.3s;
+    background-color: #1db954;
+}
+
+html
+{
+    background: #191919 no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    -webkit-background-filter: blur(5px);
+  -moz-background-filter: blur(5px);
+  -o-background-filter: blur(5px);
+  -ms-background-filter: blur(5px);
+  background: blur(5px);
+  height: 100%;
+  padding: 0;
+  margin:0;
+  overflow-x: hidden;
+}
+
+
+body
+{
+    height: 100%;
+    margin:0;
+    padding:0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#bigContainer
+{
+    position: fixed;
+    margin:auto;
+    left:0;
+    right:0;
+    width: 100%;
+    bottom: 0;
+    background-color: #353535;
+    border-top:1px solid #404040; 
+    padding-top:10px;
+}
+
+#controller
+{
+    position: relative;
+    margin:auto;
+    left:0;
+    right:0;
+    width: 66%;
+    text-align: center;
+    padding:0;
+    margin-bottom: 0px;
+}
+
+@media(max-width:1366)
+{
+    #controller
+    {
+        width:100%;
+    }
+}
+
+#playerDiv
+{
+    position: relative;
+    margin:auto;
+    left:0;
+    right:0;
+    width: 66%;
+    bottom: 0;
+    margin-top: 0px;
+    padding: 0;
+}
+
+@media(max-width:1366)
+{
+    #playerDiv
+    {
+        width:100%;
+    }
+}
+
+
+.ctrlImg{
+    width:45px;
+    height:45px;
+    padding: 5px;
+    padding-bottom: 0px;
+    padding-top: 0px;
+    position: relative;
+
+    border:none;
+    opacity: 0.8;
+    display: block;
+    margin-bottom: 0px;
+}
+
+
+@media(max-width:980px)
+{
+    .ctrlImg{
+        width:135px;
+        height:135px;
+        padding: 5px;
+        padding-left: 25px;
+        padding-right: 25px;
+        position: relative;
+    
+        border:none;
+        opacity: 0.8;
+        display: block;
+    }
+    #bigContainer
+    {
+        background-color: #292929;
+    }
+    #playerDiv
+    {
+        margin-bottom:50px;
+    }
+    #controller
+    {
+        margin-bottom:20px;
+        margin-top:20px;
+    }
+}
+
+
+.controllButton
+{
+    cursor: pointer;
+    background-color:transparent;
+    border:none;
+    text-align: center;
+    margin:0;
+    padding-bottom: 0px;
+    padding-top: 0px;
+}
+
+
+
+.controllButton:focus
+{
+        outline:none !important;  
+}
+
+
+
+.headline
+{
+    width: 100%;
+    position: fixed;
+    height:50px;
+    top:0;
+    border-bottom: 1px solid grey;
+}
+
+@media(max-width:980px)
+{
+    .headline
+    {
+        width: 100%;
+        position: fixed;
+        height:100px;
+        top:0;
+        border-bottom: 1px solid grey;
+    }
+    .homeLogo
+    {
+        display: none;
+        visibility: hidden;
+    }
+    .homeTitle
+    {
+        display: none;
+        visibility: hidden;
+    }
+}
+
+.homeLogo
+{
+    cursor: pointer;
+    margin-left: 20px;
+    margin-bottom: 0px;
+    margin-top:0px;
+    padding:0;
+}
+
+.homeTitle
+{
+    cursor: pointer;
+    text-decoration: none;
+    position: absolute;
+    margin-left:20px;
+    text-align: center;
+    top:12px;
+    height: 50px;
+    font-size: 27px;
+    color: #cdcaca;
+    font-weight:bold;
+    font-style: italic;
+    text-align: center;
+    opacity: 0.8;
+}
+
+#NowPlayedDiv
+{
+    background-color: transparent;
+    position: absolute;
+    margin:auto;
+    left:0;
+    right:0;
+    width: 500px;
+    bottom:20%;
+    top:10%;
+}
+
+#cover
+{
+    height: 500px;
+    width: 500px;
+}
+@media(max-width:1280px)
+{
+    #NowPlayedDiv
+    {
+        width:1000px;
+        height: 1000px;
+    }
+
+    #cover
+    {
+        height: 900px;
+        width: 900px;
+    }
+}
+
+
+.details
+{
+    text-align: center;
+    color:wheat;
+    font-family: Arial;
+    font-size: 20px;
+}
+
+/*Small Tags*/
+
+#smallTags
+{
+    position: absolute;
+    height: 100%;
+    float: left;
+    width: 20%;
+    margin: 0;
+    padding: 0;
+    
+}
+
+@media(max-width:1200px)
+{
+    #smallTags
+    {
+        visibility: hidden;
+        display: none;
+
+    }
+
+    #bigContainer
+    {
+        width:100%;
+    }
+
+    #controller
+    {
+        width:100%;
+    }
+
+    #playerDiv
+    {
+        width: 100%;
+        background-color: transparent;
+    }
+}
+
+#smallCover
+{
+    width: 80px;
+    height:80px;
+    float:left;
+    margin-left:10px;
+    position: relative;
+    padding: auto;
+    top:4px;
+    vertical-align: middle;
+    
+}
+
+#smallDetails
+{
+    position: absolute;
+    left:100px;
+    float: left;
+    height: 100%;
+    color:rgb(212, 212, 212);
+    font-family: sans-serif;
+    font-size: 20px;
+    padding-top:21px;
+    font-weight: 400;
+    width: 250px;
+    
+
+}
+
+.smallDetails
+{
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    font-size: smaller;
+    padding-top:2px;
+    padding-bottom:2px;
+    width:100%;
+}
+
+
+
+/*Left toolbar*/
+#toolBar
+{
+    float: left;
+    position: fixed;
+    width:250px;
+    top:51px;
+    background-color: rgb(10, 10, 10);
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top:20px;
+    padding-bottom: 20px;
+    margin: 0;
+    bottom:110px;
+}
+
+.menuelemDiv
+{
+    display: block;
+    position: relative;
+    width: 100%;
+    height:40px;
+    margin-bottom: 15px;
+}
+
+#searchInput
+{
+    height: 30px;
+    float: right;
+    width:195px;
+    padding: 5px;
+    background-color: #292929;
+    border: none;
+    font-size: 20px;
+    color:rgb(224, 224, 224);
+}
+#searchImg
+{
+    cursor: pointer;
+}
+
+.elemImg
+{
+    height: 30px;
+    width: 30px;
+    max-width: 30px;
+    max-height: 30px;
+    float:left;
+    padding-top:5px;
+    padding-bottom:5px;
+}
+
+.menuButton
+{
+    cursor: pointer;
+    height: 40px;
+    width:190px;
+    max-width: 190px;
+    background-color: transparent;
+    color: #777777;
+    border:none;
+    text-align: left;
+    font-family: sans-serif;
+    font-weight: bold;
+    margin-left: 10px;
+    font-size: 20px;
+    vertical-align: middle;
+}
+
+#searchDiv
+{
+    display: block;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    left: 300px;
+    background-color: transparent;
+    position: absolute;
+    color: wheat;
+    top:51px;
+    width: 100%;
+    bottom:110px;
+}
+
+/*SZÜLŐ*/
+#playlistsDiv
+{
+    position: fixed;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    overflow: hidden;
+    left:300px;
+    background-color: transparent;
+    color: wheat;
+    width:100%;
+    top:51px;
+    
+}
+
+/*BALOLDALI*/
+#theLists
+{
+    margin-top:50px;
+    overflow: hidden;
+    float: left;
+    position: relative;
+}
+
+/*JOBBOLDALI*/
+#tracksinlist
+{
+    margin-top:70px;
+    padding: 0;
+    overflow: hidden;
+    position: relative;
+    float: left;
+}
+
+
+
+.pt
+{
+    color: grey;
+    font-size: 20px;
+    text-transform: uppercase;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding-bottom: 10px;
+    letter-spacing: 6px;
+    border-bottom: 1px solid rgba(128, 128, 128, 0.722);
+
+}
+
+@media(max-width:1280px)
+{
+    #toolBar
+    {
+        display:none;
+        visibility: hidden;
+    }
+    .SiteDiv
+    {
+        left:0;
+        right:0;
+        width:100%;
+    }
+}
+
+#addNewPlayListDiv
+{
+    display: none;
+}
+
+#newPlayListInput
+{
+    height: 30px;
+    float: right;
+    width:195px;
+    padding: 5px;
+    border-radius: 5px;
+    background-color: #29292960;
+    border: none;
+    font-size: 20px;
+    color:rgba(224, 224, 224, 0.757);
+}
+
+#newPlayListInput::placeholder
+{
+    opacity: 0.6;
+}
+
+#plusImg
+{
+    cursor: pointer;
+}
+
+/*FELFEDEZÉS ELEMEI*/
+
+#discoverDiv
+{
+    
+    top:101px;
+    position: absolute;
+    left: 320px;
+    padding-bottom: 70px;
+}
+
+
+
+.randCover
+{
+    width:200px;
+    height:200px;
+}
+
+.randtitle
+{
+    cursor: pointer;
+    width: 200px;
+    height: 30px;
+    text-overflow: ellipsis;
+    margin-bottom: 10px;
+}
+.randartist
+{
+    color:grey;
+    font-size: 17px;
+    text-transform: uppercase;
+    width: 200px;
+    height: 30px;
+    text-overflow: ellipsis;
+}
+.zene
+{
+    float: left;
+    margin-left:20px;
+    text-align: center;
+    color:wheat;
+    margin-top:0px;
+    margin-bottom: 60px;
+}
+
+#selectList
+{
+    width:200px;
+    height: auto;
+    content: '';
+    
+    background-color: #111;
+    border: none;
+    position: absolute;
+    color:#c0c0c0;
+    
+}

@@ -1,0 +1,331 @@
+input:focus {
+    outline:none !important;
+}
+
+html
+{
+    background: url('img/blurred.jpg') no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    -webkit-background-filter: blur(5px);
+  -moz-background-filter: blur(5px);
+  -o-background-filter: blur(5px);
+  -ms-background-filter: blur(5px);
+  background: blur(5px);
+}
+
+
+body
+{
+
+    margin:0;
+    padding:0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#container
+{
+    width: 100%;
+    height: 100vh;
+    scroll-behavior: smooth;
+    overflow-y: scroll;
+
+}
+
+
+
+
+.brand
+{
+    position: relative;
+    width:100%;
+    height:100%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align:center;
+}
+
+
+.logo 
+{
+    margin-top:5%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom:0%;
+    display: none;
+}
+
+#wavestorm
+{
+    color:#16bdb7;
+    font-size: 100px;
+    font-family: "Helvetica";
+    margin-top:0px;
+    font-weight:bold;
+    margin-bottom:0%;
+    display: none;
+
+}
+
+
+#wavestorm:hover
+{
+    font-size:101px;
+    transition: 1.5s;
+    color:#5fcfcbba;
+}
+
+
+.start
+{
+    cursor: pointer;
+    border-radius:30px;
+    padding-top:15px;
+    padding-bottom:15px;
+    color:#16bdb7;
+    font-family: arial;
+    font-size:30px;
+    font-weight: bold;
+    text-decoration: none;
+    text-transform: uppercase;
+    
+    border: 2px solid #16bdb7;
+    text-align: center;
+    background-color:#fff;
+    overflow: hidden;
+    position: relative;
+    display:block;
+    width: 200px;
+    margin-left: auto;
+    margin-right:auto;
+    
+
+}
+
+
+.start:hover
+{
+    color:#fff;
+    background: #16bdb7;
+    transition: 1.5s;
+}
+
+.start:hover:after
+{
+    transition: 1s;
+    background-color:#fff;
+    color:#16bdb7;
+    
+}
+
+
+
+
+
+
+
+#in
+{
+    padding-top:auto;
+    position: relative;
+    width:100%;
+    height:100%;
+    margin-left:auto;
+    margin-right: auto;
+    border-radius: 10px;
+    border-color:transparent;
+    text-align: center;
+    background-color: transparent;
+}
+
+
+.mezo
+{
+    width:300px;
+    height:50px;
+    font-size:20px;
+    margin-top:10px;
+    margin-bottom:10px;
+    border-radius:5px;
+    border-color: transparent;
+    padding-left:10px;
+    padding-top:2px;
+    padding-bottom:2px;
+    text-decoration: none;
+    font-weight: 80;
+    font-family: Arial;
+    color:#202020;
+}
+
+.background
+{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
+    width: 1000px;
+    height: 640px;
+    background-color: rgba(245, 245, 245,0.9);
+    border-radius: 3px;
+
+}
+
+#registration
+{
+    float:left;
+    width:499px;
+    height: 640px;
+    border-right:1px solid grey;
+    
+}
+
+.login
+{
+    cursor: pointer;
+    float:right;
+    width:500px;
+    height: 640px;
+    
+}
+
+.gomb
+{
+    cursor: pointer;
+    width:314px;
+    height:50px;
+    font-size:20px;
+    margin-top:10px;
+    margin-bottom:10px;
+    padding-left:10px;
+    padding-right: 10px;
+    padding-top:2px;
+    padding-bottom:2px;
+    text-decoration: none;
+    font-weight: 80;
+    font-family: Arial;
+    background-color: #1db954;
+    color:#fff;
+    text-transform: uppercase;
+    
+    border: 1px solid transparent;
+    border-radius: 5px;
+    vertical-align: middle;
+
+}
+
+.gomb:hover
+{
+    background: #1ecf5c;
+    transition: 0.3s;
+}
+
+.gomb:hover:after
+{
+    transition: 0.3s;
+    background-color: #1db954;
+}
+
+.cim
+{
+    padding-top:50px;
+    color:#366082;
+    font-weight: bold;
+    text-decoration:underline;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+
+
+.or
+{
+    margin-top:10px;
+    margin-bottom:10px;
+    text-align: center;
+    color: grey;
+    font-weight:bold;
+    font-size:20px;
+    font-family: Arial;
+}
+
+.forgot-password
+{
+    text-decoration: none;
+    color: #79ade9;
+}
+
+
+.terms_and_conditions
+{
+    text-decoration: none;
+    color: #79ade9;
+}
+
+#must
+{
+    display: none;
+    color: #ff3535c3;
+}
+
+#PassWordMustMatch
+{
+    display: none;
+    color: #ff3535c3;
+    padding-left:0px;
+    padding-right:65px;
+}
+
+
+#NameRequired
+{
+    display: none;
+    color: #ff3535c3;
+    padding-left:0px;
+    padding-right: 230px;
+    margin:0;
+    padding-bottom:0px;
+    padding-top:0px;
+}
+
+#EmailRequired
+{
+    display: none;
+    color: #ff3535c3;
+    padding-left:0px;
+    padding-right: 230px;
+    padding-bottom:0px;
+    padding-top:0px;
+}
+
+#PasswordRequired
+{
+    display: none;
+    color: #ff3535c3;
+    padding-left:0px;
+    padding-right: 230px;
+    padding-bottom:0px;
+    padding-top:0px;
+}
+
+#AlreadyUsed
+{
+    display: none;
+    color: #ff3535c3;
+    padding-left:0px;
+    padding-right: 130px;
+    padding-bottom:0px;
+    padding-top:0px;
+}
+
+#RegExpEmail
+{
+    display: none;
+    color: #ff3535c3;
+    padding-left:0px;
+    padding-right: 145px;
+    padding-bottom:0px;
+    padding-top:0px;
+}
